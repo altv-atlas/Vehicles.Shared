@@ -3,7 +3,7 @@
 /// <summary>
 /// Object that stores wheel modification data
 /// </summary>
-public class WheelMod
+public record WheelMod
 {
     public byte Index { get; set; }
 
